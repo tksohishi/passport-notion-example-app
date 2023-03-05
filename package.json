@@ -1,0 +1,23 @@
+{
+  "name": "passport-notion-example-app",
+  "version": "1.0.0",
+  "description": "an example app using `passport-notion`",
+  "main": "index.js",
+  "author": "Takeshi Ohishi",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "npx nodemon index"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-notion": "^1.0.2",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
